@@ -1,5 +1,4 @@
 import { readFileSync } from "node:fs";
-import internal from "node:stream";
 
 const inputLines = readFileSync("./input.txt", { encoding: "utf-8" })
 .replace(/\r/g, "")
